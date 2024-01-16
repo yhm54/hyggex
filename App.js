@@ -28,7 +28,7 @@ import Faq from './faq';
 function App() {
 
 
-  const questions = ['Can education flashcards be used for all age groups?', 'How do education flashcards work?', 'Can education flashcards be used for test preparation?'];
+  const questions = [{question: 'Can education flashcards be used for all age groups?', answer: "ans1"},{question: 'How do education flashcards work?', answer: "ans2"} , {question: 'Can education flashcards be used for test preparation?', answer: "ans3"}];
 
   const arrNav = [
     "Flashcard", "Mathematics", "Relations and Functions",
